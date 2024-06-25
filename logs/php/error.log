@@ -1,0 +1,12 @@
+[25-Jun-2024 16:25:47 UTC] PHP Warning:  require_once(C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider/class.one-slider-cpt.php): Failed to open stream: No such file or directory in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\oneslider.php on line 42
+[25-Jun-2024 16:25:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider/class.one-slider-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\oneslider.php:42
+Stack trace:
+#0 C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\oneslider.php(74): One_Slider->__construct()
+#1 C:\Users\conta\Local Sites\oneslider\app\public\wp-admin\includes\plugin.php(2389): include_once('C:\\Users\\conta\\...')
+#2 C:\Users\conta\Local Sites\oneslider\app\public\wp-admin\includes\plugin.php(675): plugin_sandbox_scrape('oneslider/onesl...')
+#3 C:\Users\conta\Local Sites\oneslider\app\public\wp-admin\plugins.php(60): activate_plugin('oneslider/onesl...', 'http://oneslide...', false)
+#4 {main}
+  thrown in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\oneslider.php on line 42
+[25-Jun-2024 16:30:38 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\post-types\class.one-slider-cpt.php on line 23
+[25-Jun-2024 16:39:16 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\post-types\class.one-slider-cpt.php on line 29
+[25-Jun-2024 16:51:08 UTC] PHP Parse error:  syntax error, unexpected token "/", expecting ")" in C:\Users\conta\Local Sites\oneslider\app\public\wp-content\plugins\oneslider\post-types\class.one-slider-cpt.php on line 27
