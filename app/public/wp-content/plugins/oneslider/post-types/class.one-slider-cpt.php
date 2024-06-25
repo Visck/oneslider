@@ -18,7 +18,7 @@ if( !class_exists('One_Slider_Post_type')){
                     
                     ),
                     
-                    // description and all parameters https://developer.wordpress.org/reference/functions/register_post_type/#description
+                    // description and all parameters CPT https://developer.wordpress.org/reference/functions/register_post_type/#description
                     
                     'public' => true,
                     'supports'=> array('title','editor','thumbnail'),
